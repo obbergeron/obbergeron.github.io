@@ -1,7 +1,18 @@
 <style>
-a:link {
-  color: #00693e;
-  background-color: transparent;
-  text-decoration: none;
+a {
+  color: green;
+}
+body{
+  background-color: white;
+}
+.navbar{
+  background: #00693e;
+  color: white;
+}
+.navbar .navbar-nav>li>a {
+  color: white;
+}
+.navbar-brand {
+  color: white;
 }
 </style>

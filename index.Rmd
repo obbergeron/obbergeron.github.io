@@ -4,11 +4,20 @@ title: "Welcome!"
 
 <div><img src="20191107_171006.jpg" width="350px" align="right" class="rotate90"></div>
 
-I am currently a Research Associate at Dartmouth College working with <a href="brightlinewatch.org"><u>Bright Line Watch</u></a>. I am also a masters student in Political Science at McGill University. I hold a B.A. in Political Science from McGill (2018). 
+I am currently a Research Associate at Dartmouth College working with <a href="brightlinewatch.org"><u>Bright Line Watch</u></a>. I am also a masters student in Political Science at McGill University in Montreal. I hold a B.A. in Political Science from McGill (2018). 
 
 I'm interested, broadly speaking, in political behavior and political economy, with methodological interests in causal inference and survey research. My recent research focuses on citizens' attitudes toward democracy and pathways to democratic backsliding. 
 
-You can find a copy of my CV <a href="cv/cv_2.pdf"><u>here</u></a>.
+You can find a copy of my CV <a href="cv/cv_2.pdf"><u>here</u></a> (it is also embedded at the end of this page).
 <hr>
 <b>Publications</b>
-<a href="cv/cv_2.pdf"><u>here</u></a>
+
+2\. <a href="https://www.cambridge.org/core/journals/canadian-journal-of-political-science-revue-canadienne-de-science-politique/article/covid19-and-support-for-executive-aggrandizement/51E9E60701AAEF93C01EB3D2E8BE0A69"><u>"COVID-19 and Support for Executive Aggrandizement"</u></a><b> Canadian Journal of Political Science</b>, with Elisabeth Gidengil and Dietlind Stolle. 
+
+1\. <a href="https://ejpr.onlinelibrary.wiley.com/doi/10.1111/1475-6765.12502"><u>"The partisan nature of support for democratic backsliding: A comparative perspective"</u></a><b> European Journal of Political Research</b>, with Elisabeth Gidengil and Dietlind Stolle. 
+
+
+```{r, fig.align='center', out.width='500\\linewidth', out.height='500\\lineheight', echo=FALSE}
+library(knitr)
+knitr::include_graphics("cv/cv_2.pdf")
+```

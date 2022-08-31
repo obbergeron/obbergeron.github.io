@@ -2,6 +2,40 @@
 title: "Teaching"
 ---
 
+<b>POLI210: Political Science Research Methods</b>
+
++ <a href="210 materials/syllabus_210">Syllabus</a>
++ Lecture slides:
+  + <a href="210 materials/1.1-Introduction.pdf">Lecture 1.1: Introduction to the course</a>
+  + <a href="210 materials/2.1-Studying-Politics-Scientifically.pdf">Lecture 2.1: Studying politics scientifically</a>
+
+  + <a href="210 materials/2.2-The-Scientific-Process.pdf">Lecture 2.2: The scientific process</a>
+
+  + <a href="210 materials/3.1-Scientific-Literatures.pdf">Lecture 3.1: Scientific literatures</a>
+
+  + <a href="210 materials/3.2-Building-Theory.pdf">Lecture 3.2: Building theory</a>
+
+  + <a href="210 materials/4.1-Causality-I.pdf">Lecture 4.1: Causality I: the potential outcomes framework</a>
+
+  + <a href="210 materials/4.2-Experiments.pdf">Lecture 4.2: Causality II: random assignment</a>
+
+  + <a href="210 materials/5.2-Measurement.pdf">Lecture 5.1: Measurement</a>
+
+  + <a href="210 materials/6.1-Case-studies.pdf">Lecture 5.2: Case studies</a>
+  + <a href="210 materials/6.2-Comparative-method.pdf">Lecture 6.1: The comparative method</a>
+
+  + <a href="210 materials/8.2-Survey-research.pdf">Lecture 7.1: Survey research I: sampling</a>
+  + <a href="210 materials/9.1-Survey-research-II.pdf">Lecture 7.2: Survey research II: questionnaire design</a>
+  + <a href="210 materials/9.2-Means-and-distributions.pdf">Lecture 8.1: Describing data: means and distributions</a>
+
+  + <a href="210 materials/10.2_Measures_of_association.pdf">Lecture 8.2: Measures of association</a>
+
+  + <a href="210 materials/11.1-NHST.pdf">Lecture 9.1: Null hypothesis significance testing</a>
+
+  + <a href="210 materials/12.2-Linear-regression.pdf">Lecture 9.2: Linear regression I</a>
+
+  + <a href="210 materials/13.1-Linear-regression-II.pdf">Lecture 10.1: Linear regression II</a>
+
 **POLI666: Causal inference**
 
 + <a href="666 materials/lab1.pdf">Lab 1 (Introduction to causal inference)</a>
