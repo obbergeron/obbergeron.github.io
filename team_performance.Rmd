@@ -1,0 +1,104 @@
+---
+title: "Team ratings (2020-21)"
+---
+
+```{r,echo=FALSE,warning=FALSE,message=FALSE}
+library(tidyverse)
+library(rvest)
+library(janitor)
+library(reactable)
+library(htmltools)
+
+source("functions/tratings.R")
+
+# Functions to handle cell colors copied from: https://glin.github.io/reactable/articles/womens-world-cup/womens-world-cup.html
+make_color_pal <- function(colors, bias = 1) {
+  get_color <- colorRamp(colors, bias = bias)
+  function(x) rgb(get_color(x), maxColorValue = 255)
+}
+
+# Compared to website above, inverted the vector of colors to make it from red to green 
+oratings_color <- make_color_pal(c("#44ab43", "#f8fcf8", "#ff2700"), bias = 1.3)
+
+# Keeping original order here so that lower drtg results in greener color 
+dratings_color <- make_color_pal(c("#ff2700", "#f8fcf8", "#44ab43"), bias = 1.3)
+
+ratings_2022 <- tratings(2022) %>% 
+  dplyr::select(team, wins, losses, orating, drating, netrating)
+
+reactable::reactable(
+  ratings_2022,
+  defaultSorted = "netrating",
+  defaultSortOrder = "desc",
+  columns = list(
+    orating = colDef(
+      class = "cell number",
+      cell = function(value){
+        scaled <- 1 - (value - min(ratings_2022$orating, na.rm=T)) / (max(ratings_2022$orating, na.rm=T) - min(ratings_2022$orating, na.rm=T))
+        if(!is.na(scaled)){
+        color <- oratings_color(scaled)
+        div(class = "spi-rating", style = list(background = color), value)
+        }
+      }
+    ),
+    drating = colDef(
+      class = "cell number",
+      cell = function(value){
+        scaled <- 1 - (value - min(ratings_2022$drating, na.rm=T)) / (max(ratings_2022$drating, na.rm=T) - min(ratings_2022$drating, na.rm=T))
+        if(!is.na(scaled)){
+        color <- dratings_color(scaled)
+        div(class = "spi-rating", style = list(background = color), value)
+        }
+      }
+    )
+  )
+)
+```
+
+
+<b>Biggest year-over-year decline in rORTG:</b>
+
+```{r,echo=FALSE,message=FALSE,warning=FALSE}
+# Loading data
+ratings_2011_2021 <- tratings(2010:2021, format = "long")
+
+# Transforming data to get 10 largest declines in rORTG
+ratings <- ratings_2011_2021 %>% 
+  filter(season != 2010) %>% 
+  arrange(orating_rel_change) %>% 
+  ungroup() %>% 
+  dplyr::select(team, season, orating, orating_previous, orating_rel_change) %>% 
+  mutate_if(is.numeric, round, 1) 
+
+reactable::reactable(
+  ratings,
+  columns = list(
+    orating_rel_change = colDef(
+      name = "Change in rORTG",
+      width = 120,
+      align = "center",
+      class = "cell number",
+      cell = function(value){
+        scaled <- 1 - (value - min(ratings$orating_rel_change, na.rm=T)) / (max(ratings$orating_rel_change, na.rm=T) - min(ratings$orating_rel_change, na.rm=T))
+        color <- oratings_color(scaled)
+        div(class = "spi-rating", style = list(background = color), value)
+      }
+    ),
+    season = colDef(
+      name = "Season",
+      width = 70
+    ),
+    orating = colDef(
+      name = "ORTG",
+      width = 100
+    ),
+    orating_previous = colDef(
+      name = "Previous ORTG",
+      width = 100
+    ),
+    team = colDef(
+      name = "Team"
+    )
+  )
+)
+```

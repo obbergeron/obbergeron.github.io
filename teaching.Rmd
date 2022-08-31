@@ -1,0 +1,25 @@
+---
+title: "Teaching"
+---
+
+**POLI666: Causal inference**
+
++ <a href="666 materials/lab1.pdf">Lab 1 (Introduction to causal inference)</a>
++ <a href="666 materials/lab2.pdf">Lab 2 (Directed acyclic graphs)</a>
++ <a href="666 materials/lab3.pdf">Lab 3 (Randomization)</a>
++ <a href="666 materials/lab4.pdf">Lab 4 (Matching)</a>
++ Lab 5 (instrumental variables): <a href="666 materials/lab5_slides.pdf">slides</a> and <a href="666 materials/lab5.pdf">code</a>
++ Lab 6 (regression discontinuity): <a href="666 materials/lab6_slides.pdf">slides</a> and <a href="666 materials/lab6_code.pdf">code</a>
+
+**Conjoint experiment workshop (2021)**
+
++ <a href="conjoint_workshop/conjoint_workshop.pdf">Slides</a>
++ <a href="conjoint_workshop/html_table.html">Template for HTML table</a>
++ <a href="conjoint_workshop/CSDC_conjoint_workshop.qsf">Qualtrics template (.qsf file)</a>
++ <a href="conjoint_workshop/js_randomize.js">Javascript code for randomization</a>
++ The slides are alse here:
+
+```{r, fig.align='center', out.width='500\\linewidth', out.height='500\\lineheight', echo=FALSE}
+library(knitr)
+knitr::include_graphics("conjoint_workshop/conjoint_workshop.pdf")
+```

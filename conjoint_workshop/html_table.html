@@ -1,0 +1,53 @@
+<!--You can modify this parameter to change the font size. size="1" looks reasonable on Qualtrics, 
+but not really for mobile respondents.-->
+<font size = "3"> 
+
+<style>
+table {
+    border-collapse: collapse;
+    
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+</style>
+
+    <!--I added the "border=1 frame=hsides rules=row" argument to make lines between rows and columns.
+    I looks much better in Qualtrics.-->
+    <table border=1 frame=hsides rules=row style="width:90%; align:center; margin-left:auto; margin-right:auto; text-align:center; table-layout:fixed;" cellspacing="4" border-collapse: collapse;>
+        <tr border-bottom: 1px solid black;>
+            <td style="font-weight:bold; font-size:1.25em; font-align:center;">Cat A</td>
+            <td style="font-weight:bold; font-size:1.25em; font-align:center;">Cat B</td>
+        </tr>
+        <tr border-bottom: 1px solid black;>
+            <td id="a1"></td>
+            <td id="b1"></td>
+        </tr>
+        <tr>
+            <td id="a2"></td>
+            <td id="b2"></td>
+        </tr>
+        <tr>
+            <td id="a3"></td>
+            <td id="b3"></td>
+        </tr>
+        <tr>
+            <td id="a4"></td>
+            <td id="b4"></td>
+        </tr>
+        <tr>
+            <td id="a5"></td>
+            <td id="b5"></td>
+        </tr>
+        <tr>
+            <td id="a6"></td>
+            <td id="b6"></td>
+        </tr>
+    </table>
+    </font>
+    <br />
+    <span>
+        <p style="font-weight:bold;">Which cat do you prefer?</p>
+    </span>
+    <script src="conjoint.js"></script>

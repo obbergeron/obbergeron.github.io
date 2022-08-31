@@ -1,0 +1,16 @@
+name: "my-website"
+output: 
+  html_document:
+    theme: flatly
+navbar:
+  title: "Olivier Bergeron-Boutin"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Teaching materials"
+      href: teaching.html
+    - text: "POLI210 (F2021)"
+      href: poli210.html
+    - text: "NBA team performance"
+      href: team_performance.html
+output_dir: "."
