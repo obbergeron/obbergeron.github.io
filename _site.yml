@@ -1,7 +1,7 @@
 name: "my-website"
 output: 
   html_document:
-    theme: flatly
+    css: site_style.css
 navbar:
   title: "Olivier Bergeron-Boutin"
   left:
