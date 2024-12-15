@@ -23,6 +23,8 @@ You can find a copy of my CV <a href="cv/cv_2.pdf"><u>here</u></a> (it is also e
 
 1\. <a href="work_in_progress/knowledge_assessments_ms_csdc.pdf"><u>"Do Americans Know What They Don't Know?"</u></a>, with Philippe Chassé (Université de Montréal). 
 
+2\. <a href="papers/Bergeron-Boutin_Olivier_PoliticalScience_thesis.pdf">Measuring Social Sorting and Its Association with Affective Polarization.</a>
+
 <p style = "margin-left:5%"></p>
 
 <div style="height: 100px;">&nbsp;</div>

@@ -1,0 +1,5 @@
+---
+title: "Papers"
+---
+
++ <a href="papers/Bergeron-Boutin_Olivier_PoliticalScience_thesis.pdf">Measuring Social Sorting and Its Association with Affective Polarization.</a>
