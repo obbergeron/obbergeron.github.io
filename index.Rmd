@@ -2,11 +2,9 @@
 title: "Welcome!"
 ---
 
-<div><img src="20191107_171006.jpg" width="350px" align="right" class="rotate90"></div>
+<div><img src="IMG_2811.jpeg" width="350px" align="right" class="rotate90"></div>
 
-I am currently a Research Associate at Dartmouth College working with <a href="brightlinewatch.org"><u>Bright Line Watch</u></a>. I am also a masters student in Political Science at McGill University in Montreal. I hold a B.A. in Political Science from McGill (2018). 
-
-I'm interested, broadly speaking, in political behavior and political economy, with methodological interests in causal inference and survey research. My recent research focuses on citizens' attitudes toward democracy; information consumption; . 
+I am currently a Research Associate at Stanford University's Graduate School of Business. I hold an M.A. and B.A. in Political Science from McGill University in Montreal (2018). I'm interested in political behavior and political economy, with methodological interests in causal inference, survey research, and metascience. My recent research focuses on citizens' attitudes toward democracy; expert forecasting; information consumption and social media; and political polarization. 
 
 You can find a copy of my CV <a href="cv/cv_2.pdf"><u>here</u></a> (it is also embedded at the end of this page).
 <hr>
