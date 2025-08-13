@@ -4,7 +4,7 @@ title: "Welcome!"
 
 <div><img src="IMG_2811.jpeg" width="350px" align="right" class="rotate90"></div>
 
-I am currently a Research Associate at Stanford University's Graduate School of Business. I hold an M.A. and B.A. in Political Science from McGill University in Montreal (2018). I'm interested in political behavior and political economy, with methodological interests in causal inference, survey research, and metascience. My recent research focuses on citizens' attitudes toward democracy; expert forecasting; information consumption and social media; and political polarization. 
+I am a PhD student in political science at the University of California, Berkeley. I hold an M.A. and B.A. in Political Science from McGill University in Montreal. I was previously a research associate at Dartmouth College and at Stanford's Graduate School of Business. I'm interested in political behavior and political economy, with methodological interests in causal inference, survey research, and metascience. My recent research focuses on citizens' attitudes toward democracy; expert forecasting; information consumption and social media; and political polarization. 
 
 You can find a copy of my CV <a href="cv/cv_2.pdf"><u>here</u></a> (it is also embedded at the end of this page).
 <hr>
@@ -19,9 +19,11 @@ You can find a copy of my CV <a href="cv/cv_2.pdf"><u>here</u></a> (it is also e
 <hr>
 <b>Work in progress</b>
 
-1\. <a href="work_in_progress/knowledge_assessments_ms_csdc.pdf"><u>"Do Americans Know What They Don't Know?"</u></a>, with Philippe Chassé (Université de Montréal). 
+1\. "Feedback Eliminates the Perverse Effects of Interventions Against Misinformation." With Brendan Nyhan, Kathleen Dowling, and Cameron Hickey. 
 
 2\. <a href="papers/Bergeron-Boutin_Olivier_PoliticalScience_thesis.pdf">Measuring Social Sorting and Its Association with Affective Polarization.</a>
+
+2\. <a href="work_in_progress/knowledge_assessments_ms_csdc.pdf"><u>"Do Americans Know What They Don't Know?"</u></a>, with Philippe Chassé (Université de Montréal). 
 
 <p style = "margin-left:5%"></p>
 
