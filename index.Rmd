@@ -2,7 +2,7 @@
 title: "Welcome!"
 ---
 
-<div><img src="IMG_2811.jpeg" width="350px" align="right" class="rotate90"></div>
+<div><img src="OBB2.jpg" width="350px" align="right" class="rotate90"></div>
 
 I am a PhD student in political science at the University of California, Berkeley. I hold an M.A. and B.A. in Political Science from McGill University in Montreal. I was previously a research associate at Dartmouth College and at Stanford's Graduate School of Business. I am interested in political behavior and political economy, with methodological interests in causal inference, survey research, and metascience. My recent research focuses on citizens' attitudes toward democracy; expert forecasting; information consumption and social media; and political polarization. 
 
