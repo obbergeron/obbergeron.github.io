@@ -1,22 +1,63 @@
-<style>
-a, a:link, a:visited, a:hover, a:active {
-  color: ##00b368;
-  text-decoration:none;
-  background-color:#778899 
-}
-body{
+body {
   background-color: white;
   font-family: 'Fira Sans';
 }
-.navbar{
+
+.navbar {
   background: #00693e;
   color: white;
 }
+
 .navbar .navbar-nav>li>a {
   color: white;
 }
+
 .navbar .navbar-brand {
   color: white;
 }
 
-</style>
+.profile-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
+  gap: 2rem;
+  align-items: start;
+}
+
+.profile-picture {
+  display: block;
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-copy {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@media (max-width: 767px) {
+  .profile-intro {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .profile-picture {
+    grid-column: 1;
+    grid-row: 1;
+    width: 72vw;
+    max-width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .profile-copy {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
