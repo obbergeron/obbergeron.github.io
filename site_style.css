@@ -17,17 +17,15 @@ body {
 }
 
 .profile-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(240px, 320px);
-  gap: 2rem;
-  align-items: start;
+  display: block;
 }
 
 .profile-picture {
   display: block;
-  grid-column: 2;
-  grid-row: 1;
-  width: 100%;
+  float: right;
+  width: 280px;
+  max-width: 38%;
+  margin: 0 0 1.5rem 2rem;
 }
 
 .profile-photo {
@@ -36,28 +34,11 @@ body {
   height: auto;
 }
 
-.profile-copy {
-  grid-column: 1;
-  grid-row: 1;
-}
-
 @media (max-width: 767px) {
-  .profile-intro {
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-  }
-
   .profile-picture {
-    grid-column: 1;
-    grid-row: 1;
+    float: none;
     width: 72vw;
     max-width: 260px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .profile-copy {
-    grid-column: 1;
-    grid-row: 2;
+    margin: 0 auto 1.25rem;
   }
 }
