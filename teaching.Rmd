@@ -4,7 +4,7 @@ title: "Teaching"
 
 <b>POLI210: Political Science Research Methods</b>
 
-+ <a href="210 materials/syllabus_210">Syllabus</a>
++ <a href="210 materials/syllabus_210.pdf">Syllabus</a>
 + Lecture slides:
   + <a href="210 materials/1.1-Introduction.pdf">Lecture 1.1: Introduction to the course</a>
   + <a href="210 materials/2.1-Studying-Politics-Scientifically.pdf">Lecture 2.1: Studying politics scientifically</a>

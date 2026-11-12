@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.16)  9 JUL 2026 13:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.11.2)  12 NOV 2026 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cv_2.tex
-(./cv_2.tex
+**cv-obb.tex
+(./cv-obb.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (./res.cls
@@ -151,7 +151,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [10pt].
 
-No file cv_2.aux.
+No file cv-obb.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
@@ -186,7 +186,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 33.
 
-Overfull \hbox (5.0517pt too wide) in paragraph at lines 80--81
+Overfull \hbox (5.0517pt too wide) in paragraph at lines 86--87
 []\OT1/cmr/m/n/10 ``Does So-cial Me-dia In-crease Po-lar-iza-tion? A Re-assess-ment of the 2020 Facebook-
  []
 
@@ -200,17 +200,17 @@ L3 programming layer <2026-01-19>
  ) 
 Here is how much of TeX's memory you used:
  7886 strings out of 469514
- 124043 string characters out of 5467550
- 539947 words of memory out of 5000000
+ 124061 string characters out of 5467550
+ 538951 words of memory out of 5000000
  36504 multiletter control sequences out of 15000+600000
  629315 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,79p,478b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,480b,542s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/olivierbergeron-boutin/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></Users/olivierbergeron-boutin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/olivierbergeron-boutin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/olivierbergeron-boutin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/olivierbergeron-boutin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></Users/olivierbergeron-boutin/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv_2.pdf (3 pages, 85942 bytes).
+Output written on cv-obb.pdf (3 pages, 86312 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
