@@ -23,9 +23,9 @@ title: "Welcome!"
 <hr>
 <b>Publications</b>
 
-7\. <u>"Political Unfriending on Facebook: Evidence from over 180 Million Users"</u><i> The Journal of Politics</i> (forthcoming), with Neil Malhotra, Jaime Settle, Magdalena Wojcieszak, et al.
+7\. <a href="https://www.journals.uchicago.edu/doi/abs/10.1086/744929"><u>"Political Unfriending on Facebook: Evidence from over 180 Million Users"</u></a><i> The Journal of Politics</i> (2026), with Neil Malhotra, Jaime Settle, Magdalena Wojcieszak, et al.
 
-6\. <u>"How Does a Pandemic Affect Support for Democratic Norms? The Case of COVID-19."</u><i> Journal of Elections, Public Opinion and Parties</i> (forthcoming), with Dietlind Stolle and Elisabeth Gidengil.
+6\. <a href="https://www.tandfonline.com/doi/full/10.1080/17457289.2026.2736073"><u>"How Does a Pandemic Affect Support for Democratic Norms? The Case of COVID-19."</u></a><i> Journal of Elections, Public Opinion and Parties</i> (2026), with Dietlind Stolle and Elisabeth Gidengil.
 
 5\. <a href="https://doi.org/10.1126/sciadv.adz6502"><u>"Untrustworthy Sources on Facebook and Instagram in 2020: Concentrated Exposure but No Attitudinal Effects."</u></a><i> Science Advances</i> (2026), with Brendan Nyhan, Jaime Settle, Emily Thorson, Magdalena Wojcieszak, et al.
 
